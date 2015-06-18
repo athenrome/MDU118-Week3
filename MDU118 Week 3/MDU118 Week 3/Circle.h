@@ -8,6 +8,11 @@ public:
 
 	float radius;
 
+	Circle(float _radius)
+	{
+		radius = _radius;
+	}
+
 	Circle();
 	~Circle();
 };
